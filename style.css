@@ -1,0 +1,45 @@
+.flex-box-rps:hover{
+
+    box-shadow:rgb(155, 25, 172);
+}
+.container-3{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-rps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid blue;
+    padding: 10px;
+    flex-direction: row;
+}
+#paper{
+    margin: 0 10px;
+    box-shadow: 0  0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+#paper:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#rock{
+margin: 0 10px;
+    box-shadow: 0  0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+#rock:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#scissors{
+    margin: 0 10px;
+    box-shadow: 0  0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+#scissors:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
